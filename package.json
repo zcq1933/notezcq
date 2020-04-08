@@ -1,19 +1,25 @@
 {
-  "name": "notepad",
-  "version": "1.0.0",
-  "description": "",
-  "main": "Gruntfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
-  },
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zcq1933/notezcq.git"
-  },
-  "bugs": {
-    "url": "https://github.com/zcq1933/notezcq/issues"
-  },
-  "homepage": "https://github.com/zcq1933/notezcq#readme"
+    "name": "notepad",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Gruntfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0"
+    },
+    "author": "",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zcq1933/notezcq.git"
+    },
+    "bugs": {
+        "url": "https://github.com/zcq1933/notezcq/issues"
+    },
+    "homepage": "https://github.com/zcq1933/notezcq#readme",
+    "devDependencies": {
+        "grunt": "^1.1.0",
+        "grunt-contrib-cssmin": "^3.0.0",
+        "grunt-contrib-htmlmin": "^3.1.0",
+        "grunt-contrib-uglify": "^4.0.1"
+    }
 }
